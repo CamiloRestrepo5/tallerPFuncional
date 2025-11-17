@@ -1,9 +1,5 @@
 numeros = [-5, -1, 0, 3, 7, -2, 10]
 
-
-def es_positivo(x): return x > 0
-
-
-positivos = list(filter(es_positivo, numeros))
+positivos = list(filter(lambda x: x > 0, numeros))
 
 print(positivos)
